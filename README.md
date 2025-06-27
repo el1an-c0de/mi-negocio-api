@@ -62,10 +62,10 @@ La API estará disponible en:
 | Método | Endpoint | Descripción |
 |----------|---------|----------|
 | POST   | ```/api/clientes```   | Crear un cliente con dirección matriz   |
-| PUT    | ```/api/clientes/{id}```  | 	Editar datos del cliente   |
-| DELETE    | ```/api/clientes/{id}```  | Eliminar cliente   |
+| PUT    | ```/api/clientes/{id}``` | 	Editar datos del cliente   |
+| DELETE    | ```/api/clientes/{id}``` | Eliminar cliente   |
 | GET    | ```/api/clientes/buscar?filtro=...``` | Buscar clientes por nombre o identificación   |
-| GET    | ```	/api/clientes/{id}``` | Obtener cliente por ID   |
+| GET    | ```/api/clientes/{id}``` | Obtener cliente por ID   |
 | POST    | ```/api/direcciones/{clienteId}``` | Registrar dirección adicional   |
 | GET    | ```/api/direcciones/{clienteId}``` | Listar todas las direcciones del cliente   |
 
