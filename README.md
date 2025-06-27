@@ -1,6 +1,7 @@
 # 📦 Mi Negocio API
 
 API REST para gestionar clientes y sus direcciones en un sistema contable y de facturación electrónica.
+Este ejercicio practico es una prueba tecnica de Mi Negocio.com.ec [Instagram Post](https://www.instagram.com/p/DIeBUx_MrhZ/)
 
 ---
 
@@ -62,11 +63,11 @@ La API estará disponible en:
 |----------|---------|----------|
 | POST   | ```/api/clientes```   | Crear un cliente con dirección matriz   |
 | PUT    | ```/api/clientes/{id}```  | 	Editar datos del cliente   |
-| DELETE    | ```	/api/clientes/{id}```  | Eliminar cliente   |
-| GET    | ```		/api/clientes/buscar?filtro=...``` | Buscar clientes por nombre o identificación   |
-| GET    | ```	/api/clientes/{id}```  | Obtener cliente por ID   |
-| POST    | ```/api/direcciones/{clienteId}```  | Registrar dirección adicional   |
-| GET    | ```/api/direcciones/{clienteId}```  | Listar todas las direcciones del cliente   |
+| DELETE    | ```/api/clientes/{id}```  | Eliminar cliente   |
+| GET    | ```/api/clientes/buscar?filtro=...``` | Buscar clientes por nombre o identificación   |
+| GET    | ```	/api/clientes/{id}``` | Obtener cliente por ID   |
+| POST    | ```/api/direcciones/{clienteId}``` | Registrar dirección adicional   |
+| GET    | ```/api/direcciones/{clienteId}``` | Listar todas las direcciones del cliente   |
 
 ## 🧪 Pruebas unitarias
 Para ejecutar las pruebas:
