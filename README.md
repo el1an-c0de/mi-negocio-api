@@ -76,7 +76,10 @@ mvn test
 Los tests usan Mockito y no afectan tu base de datos.
 
 ## 💡 Documentación del API
-En progreso. Próximamente se incluirá documentación.
+documentación automática con Swagger. Abre en tu navegador:
+```
+http://localhost:8080/swagger-ui.html
+```
 
 ## 🙌 Autor
 Creado por Elian Ramirez ⚡.
